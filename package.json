@@ -2,7 +2,7 @@
   "name": "the-colloctor",
   "version": "1.0.0",
   "description": "An app to keep track on personal debt and credit",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/WebManifestation/the-colloctor/issues"
   },
-  "homepage": "https://github.com/WebManifestation/the-colloctor#readme"
+  "homepage": "https://github.com/WebManifestation/the-colloctor#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "node-jsx": "^0.13.3",
+    "reactify": "^1.1.1"
+  }
 }
