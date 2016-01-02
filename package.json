@@ -1,0 +1,24 @@
+{
+  "name": "the-colloctor",
+  "version": "1.0.0",
+  "description": "An app to keep track on personal debt and credit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebManifestation/the-colloctor.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "Raphael Kottakal",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/WebManifestation/the-colloctor/issues"
+  },
+  "homepage": "https://github.com/WebManifestation/the-colloctor#readme"
+}
