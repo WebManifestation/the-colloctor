@@ -1,0 +1,11 @@
+# Compiled public folder #
+##########################
+
+public/
+
+
+
+# Node stuff #
+##############
+
+node_modules/
