@@ -1,17 +1,14 @@
 /** @jsx React.DOM */
 
-var React = require('react'),
-	MoreApp = require('./MoreApp');
+var React = require('react');
 
-var ReactApp = React.createClass({
+var MoreApp = React.createClass({
 
       render: function () {
         return (
           <div id="app">
 
-             <p>Test component</p>
-
-             <MoreApp />
+             <p>A sepreat component</p>
 
           </div>
         )
@@ -19,4 +16,4 @@ var ReactApp = React.createClass({
   });
 
 /* Module.exports instead of normal dom mounting */
-module.exports = ReactApp;
+module.exports = MoreApp;
